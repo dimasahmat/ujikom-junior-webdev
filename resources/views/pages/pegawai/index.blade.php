@@ -24,7 +24,7 @@
                 <tr>
                     <td>
                         @if ($pegawai->avatar)
-                            <img class="img-thumbnail" src="{{ asset('storage/app/public/avatars' . $pegawai->avatar) }}"
+                            <img class="img-thumbnail" src="{{ asset('storage/' . $pegawai->avatar) }}"
                                 alt="{{ $pegawai->name }}" width="50">
                         @else
                             <img class="img-thumbnail" src="{{ asset('assets/img/avatars/ava.png') }}" alt=""
